@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./css/main.min.css">
     <title>starter</title>
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -16,6 +18,34 @@
 
     <!-- MAIN -->
     <main class="main">
+
+        <section>
+            <div class="container mt-5 mx-auto">
+                <form class="form d-flex flex-column align-items-center mx-auto mb-3">
+                    <label class="form-label mb-3">
+                        <input class="form__input form-control" type="number" min="0" name="user_todo"
+                            placeholder="Hisobni kiriting" required autocomplete="off">
+                    </label>
+                    <button class="btn btn-primary " type="submit">result</button>
+                </form>
+                <div class="costs d-flex flex-column align-items-center">
+                    <p class="bill lead p-2 border border-secondary rounded rounded-start w-25 fs-5 text-secondary">
+                        Harajatinggiz:
+                    </p>
+                    <p
+                        class="serviceFee lead p-2 border border-secondary rounded rounded-start w-25 fs-5 text-secondary">
+                        Xizmat haqqi:
+                    </p>
+                    <p class="allBill lead p-2 border border-secondary rounded rounded-start w-25 fs-5 text-secondary">
+                        Umumiy hisob:
+                    </p>
+                    <p
+                        class="allServiceFee lead p-2 border overflow-auto border-secondary rounded rounded-start w-25 fs-5 text-secondary">
+                        Servise history:
+                    </p>
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -30,4 +60,5 @@
     <script src="./js/script.js"></script>
 
 </body>
+
 </html>
